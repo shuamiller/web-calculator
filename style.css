@@ -8,7 +8,7 @@
 #calc-body {
     background-color: rgb(189, 189, 189);
     width: 30rem;
-    height: 40rem;
+    height: 37rem;
     margin: 5rem auto;
     padding: 2rem;
 }
@@ -27,4 +27,14 @@
     text-align: right;
     font-size: 5rem;
     font-family: 'Cute Font';
+}
+
+#btn-grid {
+    display: grid;
+    margin: 2rem 0;
+    height: 31rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
 }
