@@ -11,12 +11,14 @@
     height: 37rem;
     margin: 5rem auto;
     padding: 2rem;
+    border-radius: .5rem;
 }
 
 #display {
     background-color: rgb(80, 88, 66);
     position: relative;
     height: 4rem;
+    border-radius: .5rem;
 }
 
 #display-text {
@@ -37,4 +39,25 @@
     grid-template-rows: repeat(4, 1fr);
     column-gap: 2rem;
     row-gap: 2rem;
+}
+
+button {
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+.num-btn {
+    background-color: rgb(110, 165, 110);
+}
+
+.clear-btn {
+    background-color: indianred;
+}
+
+.op-btn {
+    background-color: rgb(84, 84, 192);
+}
+
+.equals-btn {
+    background-color: rgb(250, 230, 116);
 }
