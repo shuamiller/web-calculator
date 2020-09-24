@@ -123,6 +123,7 @@ addBtn.addEventListener('click', function() {
         Number(displayNum);
         firstNum = displayNum;
     }
+    displayNum = "";
     operator = "+";
 });
 
@@ -135,6 +136,7 @@ subBtn.addEventListener('click', function() {
         Number(displayNum);
         firstNum = displayNum;
     }
+    displayNum = "";
     operator = "-";
 });
 
@@ -147,6 +149,7 @@ multBtn.addEventListener('click', function() {
         Number(displayNum);
         firstNum = displayNum;
     }
+    displayNum = "";
     operator = "x";
 });
 
@@ -159,6 +162,7 @@ divBtn.addEventListener('click', function() {
         Number(displayNum);
         firstNum = displayNum;
     }
+    displayNum = "";
     operator = "/";
 });
 
