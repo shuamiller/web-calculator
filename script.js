@@ -173,3 +173,11 @@ equalBtn.addEventListener('click', function() {
         operate(operator, firstNum, secondNum);
     }
 })
+
+clearBtn.addEventListener('click', function() {
+    firstNum = NaN;
+    secondNum = NaN;
+    displayNum = "";
+    operator = "";
+    display.textContent = "0.";
+})
