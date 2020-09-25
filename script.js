@@ -193,6 +193,8 @@ clearBtn.addEventListener('click', function() {
 })
 
 dotBtn.addEventListener('click', function() {
-    displayNum += "."
-    display.textContent = displayNum;
+    if (!displayNum.includes(".")) {
+        displayNum += "."
+        display.textContent = displayNum;
+    }
 })
