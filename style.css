@@ -50,6 +50,11 @@ button {
     background-color: rgb(110, 165, 110);
 }
 
+#small-grid {
+    display: grid;
+    gap: 1rem;
+}
+
 .clear-btn {
     background-color: indianred;
 }
